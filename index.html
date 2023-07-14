@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000" />
+
+  <title>MY PORTFOLIO</title>
+  
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Chango&family=Roboto&display=swap" rel="stylesheet">
+  
+  <!-- font awsome -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- style animate -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+  
+  <!-- animasi on scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!--favicon-->
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body id="beranda">
+  
+   <!--Header--> 
+  <header>
+    <div class="brand animate__animated animate__jackInTheBox">
+      <a href="https://mahzan123.github.io"><img src="img/logo.png" alt="logo" class="logo"></a>
+      <h3>My PORT<b style="color: #25d366">FOLIO</b></h3>
+    </div>
+    <nav>
+      <ul class="menu-list">
+        <li><a href="#beranda"  id="active">Beranda</a></li>
+        <li><a href="#project" id="active">Project</a></li>
+        <li><a href="#cv" id="active">CV saya</a></li>
+        <li class="menu-dropdown"><a href="#">Lainnya</a>
+          <ul class="isi-dropdown">
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#kontak" id="active">Kontak</a></li>
+            <li><a href="#galeri" id="active">Galeri</a></li>
+          </ul>
+        </li>
+        
+        <code class="created" style="font-size: 12px">'Created By Mahjan Hidayatulloh.'</code>
+      </ul>
+      <div class="menu-toggle animate__animated animate__jackInTheBox">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+  <!--Akhir Header-->
+  
+  <!--Beranda-->
+  <section class="container">
+    <div class="beranda">
+      <div class="sub-cover">
+        <h2 class="typewrite text-white" data-period="2000" data-type='[ "WELCOME" ]'>
+          <span class="wrap"></span>
+        </h2>
+        <p class="typewrite text-white" data-period="2000" data-type='[ "- - - to my Portfolio - - -" ]'></p>
+        <!--<h2>WELCOME</h2>
+        <p>to my Portfolio</p>-->
+        <br>
+        <h4>Halo! <br>saya <span>Mahjan Hidayatulloh</span> <br>saya seorang <span>Front End Web Developer.</span></h4>
+        <br>
+        <h3 class="typewrite text-white" data-period="2000" data-type='[ "`semangat dan kerja keras`" ]'></h3>
+        <div class="btn-chat" onclick="chat()">
+          <span class="icon-chat fa fa-brands fa-whatsapp"></span>
+          <span class="sub-chat">Hubungi saya</span>
+        </div>
+      </div>
+      
+      <div class="cover">
+        <img src="img/hero.png" alt="hero" class="hero">
+      </div>
+    </div>
+  </section>
+  <!--Akhir Beranda-->
+  
+  <!--Project saya-->
+  <section id="project">
+    <h2 class="judul-project">Project Saya</h2>
+    <div class="project">
+      <div class="list-project">
+        <div class="cards card-1">
+          <div class="detail-project">
+            <span>Online Shop</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, optio.</p>
+          </div>
+          <div class="btn-project">
+            <a href="https://MJ-Shop.tirtanadidasger.repl.co">Lihat project</a>
+          </div>
+          <div class="btn-github">
+            <a href="https://github.com/mahzan123/Olshop-sederhana">source code <span class="fa-brands fa-github"></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="list-project">
+        <div class="cards card-2">
+          <div class="detail-project">
+            <span>Merch Shop</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, optio.</p>
+          </div>
+          <div class="btn-project">
+            <a href="https://Merch-shop.tirtanadidasger.repl.co">Lihat project</a>
+          </div>
+          <div class="btn-github">
+            <a>source code <span class="fa-brands fa-github"></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="list-project">
+        <div class="cards card-3">
+          <div class="detail-project">
+            <span>Jasa Service AC</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, optio.</p>
+          </div>
+          <div class="btn-project">
+            <a href="https://rinjani-ac.tirtanadidasger.repl.co">Lihat project</a>
+          </div>
+          <div class="btn-github">
+            <a>source code <span class="fa-brands fa-github"></span></a>
+          </div>
+        </div>
+      </div> 
+      <div class="list-project">
+        <div class="cards card-4">
+          <div class="detail-project">
+            <span>Project Iseng</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, optio.</p>
+          </div>
+          <div class="btn-project">
+            <a href="https://Nomor-seri-AC.tirtanadidasger.repl.co">Lihat project</a>
+          </div>
+          <div class="btn-github">
+            <a>source code <span class="fa-brands fa-github"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Akhir Project saya-->
+  
+  <!--CV saya-->
+  <section id="cv">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#deffe7" fill-opacity="1" d="M0,288L1440,32L1440,0L0,0Z"></path></svg>
+    <h2 class="judul-cv">CV Saya</h2>
+    <div class="container-cv">
+      <div class="my-cv">
+        <div class="page-1">
+        
+          <div class="profile">
+            <a href="img/foto.jpg"><img src="img/foto.jpg" alt="logo"></a>
+            <h4>MAHJAN HIDAYATULLOH</h4>
+            <span>(( Web Devloper ))</span>
+          </div>
+          <div class="contact-cv">
+            <div class="social-media">
+              <span class="fa-solid fa-square-envelope"></span>
+              <h6>tirtanadidasger@gmail.com</h6>
+            </div>
+            <div class="social-media">
+              <span class="fa-solid fa-square-phone"></span>
+              <h6>+62 8593 3××× ×××</h6>
+            </div>
+            <div class="social-media">
+              <span class="fa-solid fa-location-crosshairs"></span>
+              <h6>Lombok Timur, Nusa Tenggara Barat</h6>
+            </div>
+            <div class="social-media">
+              <span class="fa-brands fa-square-facebook"></span>
+              <h6 class="text">Mahjan Hidayatulloh Aran Kaku</h6>
+            </div>
+            <div class="social-media">
+              <span class="fa-brands fa-square-instagram"></span>
+              <h6 class="text">@jan159951</h6>
+            </div>
+            <div class="social-media">
+              <span class="fa-brands fa-telegram"></span>
+              <h6 class="text">@mahzan123</h6>
+            </div>
+          </div>
+          <hr>
+          <div class="about-me">
+            <h5 class="h5">TENTANG SAYA</h5>
+            <br>
+            <p style="text-indent: 20px;">Saya adalah seorang Web Developer yang berdomisili di 'Lombok Timur Nusa Tenggara Barat'.</p>
+            <p>Saya teryarik dengan dunia <i>PROGRAMING</i> karna melihat peluang kerja yang bagus di indonesia sekarang ini.</p>
+            <p>Saya pertamakali mengenal tentang programing dari sebuah Website. Dari situ saya mulai mencoba untuk belajar Bahasa Pemerograman secara Otodidak</p>
+          </div>
+          <hr>
+        
+        </div>
+      
+        <div class="page-2">
+        
+          <div class="data-pribadi">
+            <h5 class="h5">DETAIL DATA PRIBADI</h5>
+            <br>
+            <h6>Tanggal Lahir</h6>
+            <p>01/03/9999</p><br>
+            <h6>Kebangsaan</h6>
+            <p>Indonesia</p><br>
+            <h6>Agama</h6>
+            <p>Islam</p>
+          </div>
+          <hr>
+          <div class="bahasa">
+            <h5 class="h5">HOBI : Berselancar di internet</h5><hr>
+          </div>
+          <div class="pengalaman">
+            <h5 class="h5">PENGALAMAN KERJA :</h5>
+            <h6>Fresh Graduate</h6>
+          </div>
+          <hr>
+          <div class="pendidikan">
+            <h5 class="h5">PENDIDIKAN TERAKHIR</h5><br>
+            <h6>"Smk Nw Korleko" Jurusan MULTIMEDIA</h6>
+            <h6>Lulus tahun ajaran 2016/2017</h6>
+          </div>
+          <hr><br><br>
+          <div class="keahlian">
+            <h5 class="h5">KEAHLIAN</h5><br>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Microsoft Word</li>
+            <li>Microsoft Power Point</li>
+          </div><hr>
+          <br><br>
+          <div class="cv-project">
+            <h5 class="h5">PROJECT</h5><br>
+            <li><a href="https://MJ-Shop.tirtanadidasger.repl.co">Online Shop Sederhana</a></li>
+            <li><a href="https://Merch-shop.tirtanadidasger.repl.co">Merch Shop</a></li>
+            <li><a href="https://rinjani-ac.tirtanadidasger.repl.co">Jasa Service AC</a></li>
+            <li><a href="https://Nomor-seri-AC.tirtanadidasger.repl.co">Project Iseng</a></li><br>
+          </div>
+        
+        </div>
+      </div>
+      <div class="download-cv">
+        <a href="CV mahjan.pdf" class="download">Download CV</a>
+        <br>
+        <span class="sub-download"><code style="color: tomato">*</code>download cv saya dalam bentuk pdf</span>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#deffe7" fill-opacity="1" d="M0,288L1440,32L1440,320L0,320Z"></path></svg>
+  </section>
+  <!--Akhir CV saya-->
+  
+  <!-- Tentang saya-->
+  <section id="tentang">
+    <h2 class="judul-tentang">Tentang Saya</h2>
+    <div class="container-abouts">
+      <hr class="garis">
+      <div class="about">
+        <code><b>Nama saya Mahjan Hidayatulloh...</b></code>
+        <p>Saya adalah seorang Front End Web Developer yang berdomisi di Lombok Timur NTB(nusa tenggara barat). </p><br>
+        <p>Saya pertama kali mengenal dunia programing khususnya Front End Web Development, melalui sebuah website <a href="https://www.petanikode.com/">petanikode.com</a>. Dari website inilah saya mulai belajar secara otodidak dan belajar step by step dari HTML CSS dan JAVASCRIPT.</p>
+      </div>
+      <hr class="garis">
+    </div>
+  </section>
+  <!-- Akhir Tentang saya-->
+  
+  <!--Kontak saya-->
+  <section id="kontak">
+    <h2 class="judul-kontak">Kontak Saya</h2>
+    <div class="container-contacts">
+      <form action="">
+        <input type="text" name="nama" id="nama" placeholder="NAMA ANDA" class="input"><br>
+        <input type="email" name="email" id="email" placeholder="ALAMAT EMAIL" class="input"><br><br>
+        <textarea name="pesan" id="pesan" rows="5" placeholder="Pesan Anda..." class="textarea"></textarea><br>
+        <button type="submit" class="btn-kirim">KIRIM</button>
+        <button type="reset" class="btn-kirim">RESET</button>
+      </form>
+      
+      <div class="contacts">
+        <div class="contact email">
+          <span class="icon fa-solid fa-square-envelope"></span>
+          <h6 class="text">tirtanadidasger@gmail.com</h6>
+        </div>
+        <div class="contact telpon">
+          <span class="icon fa-solid fa-square-phone"></span>
+          <h6 class="text">+62 8593 3××× ×××</h6>
+        </div>
+        <div class="contact fb">
+          <span class="fa-brands fa-square-facebook"></span>
+          <h6 class="text">Mahjan Hidayatulloh Aran Kaku</h6>
+        </div>
+        <div class="contact ig">
+          <span class="fa-brands fa-square-instagram"></span>
+          <h6 class="text">@jan159951</h6>
+        </div>
+        <div class="contact tel">
+          <span class="fa-brands fa-telegram"></span>
+          <h6 class="text">@mahzan123</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Akhir Kontak saya-->
+  
+  <!--Galeri saya-->
+  <section id="galeri">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#deffe7" fill-opacity="1" d="M0,288L1440,32L1440,0L0,0Z"></path></svg>
+    <h2 class="judul-galeri">Galeri Saya</h2>
+    <div class="container-galeri">
+      <div class="list-galeri">
+        <a href="galeri/g-1.jpg"><img src="galeri/g-1.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-2.jpg"><img src="galeri/g-2.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-3.jpg"><img src="galeri/g-3.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-4.jpg"><img src="galeri/g-4.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-5.jpg"><img src="galeri/g-5.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-6.jpg"><img src="galeri/g-6.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-7.jpg"><img src="galeri/g-7.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-8.jpg"><img src="galeri/g-8.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-9.jpg"><img src="galeri/g-9.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-10.jpg"><img src="galeri/g-10.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-11.jpg"><img src="galeri/g-11.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-12.jpg"><img src="galeri/g-12.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-13.jpg"><img src="galeri/g-13.jpg" alt="galeri"></a>
+      </div>
+      <div class="list-galeri">
+        <a href="galeri/g-14.jpg"><img src="galeri/g-14.jpg" alt="galeri"></a>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000" fill-opacity="1" d="M0,288L1440,32L1440,320L0,320Z"></path></svg>
+  </section>
+  <!--Akhir Galeri saya-->
+  
+  <section id="akhir">
+    <div>* * * * Terimakasih 🙏 * * * *</div>
+  </section>
+  
+  <!--footer-->
+  <footer>
+    <div class="box-contact">
+      <div class="boxs box-1">
+        <span class="icon fa-solid fa-square-envelope"></span>
+        <h6>tirtanadidasger@gmail.com</h6>
+      </div>
+      <div class="boxs box-2">
+        <span class="icon fa-solid fa-square-phone"></span>
+        <h6>+62 8593 3xxx xxx</h6>
+      </div>
+      <div class="boxs box-3">
+        <span class="fa-solid fa-location-crosshairs"></span>
+        <h6>Lombok Timur, Nusa Tenggara Barat</h6>
+      </div>
+      <div class="boxs box-4">
+        <a class="facebook" href="https://www.facebook.com/mahjan.hidayatulloh.9"><span class="fa-brands fa-facebook"></span></a>
+        <a class="instagram" href="https://instagram.com/jan159951"><span class="fa-brands fa-instagram"></span></a>
+        <a class="telegram" href="https://t.me/mahzan123"><span class="fa-brands fa-telegram"></span></a>
+        <a class="github" href="https://github.com/mahzan123"><span class="fa-brands fa-github"></span></a>
+        <a class="linkedin" onclick="linkedin()"><span class="fa-brands fa-linkedin"></span></a>
+      </div>
+    </div>
+    
+    <div class="jump">
+      <h6 class="menu-jump dropdown">Project Saya
+        <li><a href="https://MJ-Shop.tirtanadidasger.repl.co">Online Shop</a></li>
+        <li><a href="https://Merch-shop.tirtanadidasger.repl.co">Merch Shop</a></li>
+        <li><a href="https://rinjani-ac.tirtanadidasger.repl.co">Jasa Service AC</a></li>
+        <li><a href="https://Nomor-seri-AC.tirtanadidasger.repl.co">Project Iseng</a></li>
+      </h6>
+      <h6 class="menu-jump"><a href="CV ku.pdf">Download CV</a></h6>
+      <h6 class="menu-jump"><a href="#beranda">Kembali ke atas</a></h6>
+    </div>
+  
+    <p>Copyright &copy; <span id="year"></span>.2022 Mahjan.</p>
+  </footer>
+  <!--Akhir footer-->
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script>
+    AOS.init();
+  </script>
+  
+  <script src="main.js"></script>
+</body>
+</html>
