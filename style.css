@@ -335,6 +335,10 @@ nav {
   background-image: url(galeri/g-11.jpg);
   background-size: 100%;
 }
+.card-5 {
+  background-image: url(galeri/g-15.jpg);
+  background-size: 100%;
+}
 
 .cards .detail-project, .btn-project, .btn-github {
   width: 60%;
